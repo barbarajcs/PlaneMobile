@@ -34,10 +34,17 @@
         "D:/Bia/Unity/ShipMobile/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.AudioModule.dll",
         "D:/Bia/Unity/ShipMobile/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.CoreModule.dll",
         "D:/Bia/Unity/ShipMobile/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.dll",
+        "D:/Bia/Unity/ShipMobile/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.GridModule.dll",
         "D:/Bia/Unity/ShipMobile/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.IMGUIModule.dll",
         "D:/Bia/Unity/ShipMobile/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.InputLegacyModule.dll",
+        "D:/Bia/Unity/ShipMobile/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.Physics2DModule.dll",
+        "D:/Bia/Unity/ShipMobile/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.PhysicsModule.dll",
         "D:/Bia/Unity/ShipMobile/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.SharedInternalsModule.dll",
-        "D:/Bia/Unity/ShipMobile/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.TextRenderingModule.dll"
+        "D:/Bia/Unity/ShipMobile/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.SpriteShapeModule.dll",
+        "D:/Bia/Unity/ShipMobile/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.TextRenderingModule.dll",
+        "D:/Bia/Unity/ShipMobile/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.TilemapModule.dll",
+        "D:/Bia/Unity/ShipMobile/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.UI.dll",
+        "D:/Bia/Unity/ShipMobile/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.UIModule.dll"
       ],
       "Outputs": [
         "D:/Bia/Unity/ShipMobile/Library/Il2cppBuildCache/Android/armeabi-v7a/Native/armeabi-v7a/libil2cpp.so"

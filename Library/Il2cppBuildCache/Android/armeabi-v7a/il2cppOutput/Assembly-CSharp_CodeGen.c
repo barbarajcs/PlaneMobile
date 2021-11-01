@@ -12,50 +12,118 @@
 
 
 
-// 0x00000001 System.Void GUI_game::Awake()
+// 0x00000001 System.Void Alvo::Start()
+extern void Alvo_Start_m50132A5F8C72F47920F5D9AB01C5BDDD23A9F22E (void);
+// 0x00000002 System.Void Alvo::Update()
+extern void Alvo_Update_m0B72FA2F6E478B56FE5D58CDAE18F683145A7B85 (void);
+// 0x00000003 System.Void Alvo::OnTriggerEnter2D(UnityEngine.Collider2D)
+extern void Alvo_OnTriggerEnter2D_m3BDD12ACDA71221F92A92759723592C9F4283BCD (void);
+// 0x00000004 System.Void Alvo::OnGUI()
+extern void Alvo_OnGUI_m530CAB0809070D92E9E7FF9AE3A375253913E140 (void);
+// 0x00000005 System.Void Alvo::.ctor()
+extern void Alvo__ctor_m2D3F4CF8DDB26DB513E32279D2F43678B850022E (void);
+// 0x00000006 System.Void GUI_game::Awake()
 extern void GUI_game_Awake_mDA204BB9303A24B27CC79C9D5FE6F1FEE0C16287 (void);
-// 0x00000002 System.Void GUI_game::Start()
+// 0x00000007 System.Void GUI_game::Start()
 extern void GUI_game_Start_m559FE4914E21525DFD529BE917CF41F5CAFF63D1 (void);
-// 0x00000003 System.Void GUI_game::Update()
+// 0x00000008 System.Void GUI_game::SoltaPoder()
+extern void GUI_game_SoltaPoder_m3DB7D73C9DC28D5ABC113C8DDA464B887507D10D (void);
+// 0x00000009 System.Void GUI_game::Update()
 extern void GUI_game_Update_m1061F62422785EF1718507675670FFAC6FDF893D (void);
-// 0x00000004 System.Void GUI_game::OnGUI()
+// 0x0000000A System.Void GUI_game::OnGUI()
 extern void GUI_game_OnGUI_m463553B02A0EF9D2A67DBE7006D332AF808FABF6 (void);
-// 0x00000005 System.Void GUI_game::.ctor()
+// 0x0000000B System.Void GUI_game::.ctor()
 extern void GUI_game__ctor_m71DA21B04DE3E3EEEA2089B519F5ED951365B044 (void);
-// 0x00000006 System.Void MovePlane::Start()
+// 0x0000000C System.Void GUI_game_old::Awake()
+extern void GUI_game_old_Awake_m333BF534CB2852F39A5EA7D1E5F82675F076DCF2 (void);
+// 0x0000000D System.Void GUI_game_old::Start()
+extern void GUI_game_old_Start_m9B22A787539020ED8808AC2630B1D6563623F24F (void);
+// 0x0000000E System.Void GUI_game_old::SoltaPoder()
+extern void GUI_game_old_SoltaPoder_mBD69B8E078BA3D29EBD21A6CBEBAE5DAB0B8A32D (void);
+// 0x0000000F System.Void GUI_game_old::Update()
+extern void GUI_game_old_Update_mE7899F413C4503A525B891CDF1D12B1529D78350 (void);
+// 0x00000010 System.Void GUI_game_old::OnGUI()
+extern void GUI_game_old_OnGUI_mEACD4D34A94CEE351CEBB907922AA71FA847497E (void);
+// 0x00000011 System.Void GUI_game_old::.ctor()
+extern void GUI_game_old__ctor_mF9ABA94973E5582D5B4CAE39EB66ECDA009A8D2E (void);
+// 0x00000012 System.Void MovePlane::Start()
 extern void MovePlane_Start_mDD30A05807650CBBEB5062E62CF2F7E5307F270C (void);
-// 0x00000007 System.Void MovePlane::Update()
+// 0x00000013 System.Void MovePlane::Update()
 extern void MovePlane_Update_m6F728130A3EB2C63D27D317AC582AA0282F6379C (void);
-// 0x00000008 System.Void MovePlane::.ctor()
+// 0x00000014 System.Void MovePlane::.ctor()
 extern void MovePlane__ctor_m5F291624334F318A943C3DC0C6DD63F72A35E366 (void);
-static Il2CppMethodPointer s_methodPointers[8] = 
+// 0x00000015 System.Void Target::Start()
+extern void Target_Start_m64292DFCEEBB666699B0C8458CFD0EC9858FA7AB (void);
+// 0x00000016 System.Void Target::Update()
+extern void Target_Update_m1462244DE0199BC5E31700122FB7FEF233C37174 (void);
+// 0x00000017 System.Void Target::OnTriggerEnter2D(UnityEngine.Collider2D)
+extern void Target_OnTriggerEnter2D_m5C561E77B94004F9B5F61A3DA9E2292D5C3FB407 (void);
+// 0x00000018 System.Void Target::OnCollisionEnter2D(UnityEngine.Collision2D)
+extern void Target_OnCollisionEnter2D_m4F96C876F38B9952BAD7FC5A2C4FB4BD15CB1953 (void);
+// 0x00000019 System.Void Target::.ctor()
+extern void Target__ctor_m813FE92B69A9189093DE3E7BE6B6BDF9BDAB362F (void);
+static Il2CppMethodPointer s_methodPointers[25] = 
 {
+	Alvo_Start_m50132A5F8C72F47920F5D9AB01C5BDDD23A9F22E,
+	Alvo_Update_m0B72FA2F6E478B56FE5D58CDAE18F683145A7B85,
+	Alvo_OnTriggerEnter2D_m3BDD12ACDA71221F92A92759723592C9F4283BCD,
+	Alvo_OnGUI_m530CAB0809070D92E9E7FF9AE3A375253913E140,
+	Alvo__ctor_m2D3F4CF8DDB26DB513E32279D2F43678B850022E,
 	GUI_game_Awake_mDA204BB9303A24B27CC79C9D5FE6F1FEE0C16287,
 	GUI_game_Start_m559FE4914E21525DFD529BE917CF41F5CAFF63D1,
+	GUI_game_SoltaPoder_m3DB7D73C9DC28D5ABC113C8DDA464B887507D10D,
 	GUI_game_Update_m1061F62422785EF1718507675670FFAC6FDF893D,
 	GUI_game_OnGUI_m463553B02A0EF9D2A67DBE7006D332AF808FABF6,
 	GUI_game__ctor_m71DA21B04DE3E3EEEA2089B519F5ED951365B044,
+	GUI_game_old_Awake_m333BF534CB2852F39A5EA7D1E5F82675F076DCF2,
+	GUI_game_old_Start_m9B22A787539020ED8808AC2630B1D6563623F24F,
+	GUI_game_old_SoltaPoder_mBD69B8E078BA3D29EBD21A6CBEBAE5DAB0B8A32D,
+	GUI_game_old_Update_mE7899F413C4503A525B891CDF1D12B1529D78350,
+	GUI_game_old_OnGUI_mEACD4D34A94CEE351CEBB907922AA71FA847497E,
+	GUI_game_old__ctor_mF9ABA94973E5582D5B4CAE39EB66ECDA009A8D2E,
 	MovePlane_Start_mDD30A05807650CBBEB5062E62CF2F7E5307F270C,
 	MovePlane_Update_m6F728130A3EB2C63D27D317AC582AA0282F6379C,
 	MovePlane__ctor_m5F291624334F318A943C3DC0C6DD63F72A35E366,
+	Target_Start_m64292DFCEEBB666699B0C8458CFD0EC9858FA7AB,
+	Target_Update_m1462244DE0199BC5E31700122FB7FEF233C37174,
+	Target_OnTriggerEnter2D_m5C561E77B94004F9B5F61A3DA9E2292D5C3FB407,
+	Target_OnCollisionEnter2D_m4F96C876F38B9952BAD7FC5A2C4FB4BD15CB1953,
+	Target__ctor_m813FE92B69A9189093DE3E7BE6B6BDF9BDAB362F,
 };
-static const int32_t s_InvokerIndices[8] = 
+static const int32_t s_InvokerIndices[25] = 
 {
-	887,
-	887,
-	887,
-	887,
-	887,
-	887,
-	887,
-	887,
+	1142,
+	1142,
+	981,
+	1142,
+	1142,
+	1142,
+	1142,
+	1142,
+	1142,
+	1142,
+	1142,
+	1142,
+	1142,
+	1142,
+	1142,
+	1142,
+	1142,
+	1142,
+	1142,
+	1142,
+	1142,
+	1142,
+	981,
+	981,
+	1142,
 };
 extern const CustomAttributesCacheGenerator g_AssemblyU2DCSharp_AttributeGenerators[];
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	8,
+	25,
 	s_methodPointers,
 	0,
 	NULL,

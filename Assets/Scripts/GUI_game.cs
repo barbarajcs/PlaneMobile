@@ -38,9 +38,6 @@ public class GUI_game : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-             
-        
-
         // Handle screen touches.
         if (Input.touchCount > 0)
         {
@@ -50,16 +47,13 @@ public class GUI_game : MonoBehaviour
                 {
                     // Instantiate the projectile at the position and rotation of this transform
                     clone = Instantiate(projectile, transform.position, transform.rotation) as GameObject;
-                    //clone.AddComponent<Rigidbody>();
-
                     float step = speed * Time.deltaTime;
                     clone.GetComponent<Rigidbody2D>().AddRelativeForce(new Vector3(target.position.x* step, target.position.y * step, 0));
                 }
             }
 
             Touch touch = Input.GetTouch(0);
-
-            // Move the cube if the screen has the finger moving.
+           
             if (touch.phase == TouchPhase.Moved)
             {
                 Vector2 pos = touch.position;
@@ -67,7 +61,6 @@ public class GUI_game : MonoBehaviour
                 pos.y = (pos.y - height) /50; //pos.y = (pos.y - height) /height;
                 position = new Vector3(pos.x, pos.y, 0.0f);
 
-                // Position the cube.
                 transform.position = position;
             }
 
@@ -77,13 +70,11 @@ public class GUI_game : MonoBehaviour
 
                 if (touch.phase == TouchPhase.Began)
                 {
-                    // Halve the size of the cube.
                     transform.localScale = new Vector3(0.75f, 0.75f, 0.75f);
                 }
 
                 if (touch.phase == TouchPhase.Ended)
                 {
-                    // Restore the regular size of the cube.
                     transform.localScale = new Vector3(1.0f, 1.0f, 1.0f);
                 }
             }

@@ -27,7 +27,7 @@ public class Alvo : MonoBehaviour
         if (transform.position.y > pontoA.position.y)
             moveTop = false;
         if (transform.position.y < pontoB.position.y)
-            moveTop = true;// movendo para esquerda?
+            moveTop = true;// movendo para Cima
         if (moveTop)
             transform.position = new Vector2(transform.position.x, transform.position.y + vel * Time.deltaTime);
         else
